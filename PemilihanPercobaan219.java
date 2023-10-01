@@ -18,5 +18,21 @@ public class PemilihanPercobaan219 {
         String message = total < 65 ? "Remidi" : "Tidak Remidi";
 
         System.out.println("Nilai akhir = " + total + " Sehingga "+message);
+
+        if (total >= 80){
+            System.out. println("Nilai A");
+        }else if (total > 73){
+            System.out. println("Nilai B+");
+        }else if (total < 65){
+            System.out. println("Nilai B");
+        }else if (total > 60){
+            System.out. println("Nilai C+");
+        }else if (total > 50){
+            System.out. println("Nilai C");
+        }else if (total > 39){
+            System.out. println("Nilai D");
+        }else {
+            System.out. println("Nilai E");
+        }
     }
 }
